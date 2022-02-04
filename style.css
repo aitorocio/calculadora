@@ -11,10 +11,15 @@
 
 .calculadora{
     display: flex;
-    
+    width: 50%;
+    flex-wrap: wrap;
 }
 button{
     width: 10rem;
     height: 10rem;
     padding: 5px;
+}
+input{
+    width: 50vh;
+    height: 5rem;
 }
